@@ -1,0 +1,46 @@
+{
+  "fake_data": [
+    {
+      "package_name": "com.zxzx74147.xposed",
+      "stategys": [
+        {
+          "tag": "imei",
+          "stategy": 2,
+          "list": [
+            "357747054435362",
+            "865528025275417"
+          ]
+        },
+        {
+          "tag": "android_id",
+          "stategy": 1,
+          "list": [
+            "357747054435362",
+            "865528025275417"
+          ]
+        }
+      ],
+      "package_name": "cn.myhug.baobao",
+      "stategys": [
+        {
+          "tag": "imei",
+          "stategy": 1,
+          "list": [
+            "357747054435362",
+            "865528025275417"
+          ]
+        },
+        {
+          "tag": "android_id",
+          "stategy": 2,
+          "list": [
+            "357747054435362",
+            "865528025275417"
+          ]
+        }
+      ]
+
+    }
+  ],
+  "ctime": 1445590319
+}

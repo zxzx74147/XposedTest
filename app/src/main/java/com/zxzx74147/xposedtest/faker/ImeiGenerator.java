@@ -1,0 +1,25 @@
+package com.zxzx74147.xposedtest.faker;
+
+import com.zxzx74147.xposedtest.stategy.BaseStategy;
+import com.zxzx74147.xposedtest.util.RandomUtil;
+
+/**
+ * Created by zhengxin on 15/10/23.
+ */
+public class ImeiGenerator extends BaseGenerator {
+
+    public ImeiGenerator(BaseStategy stategy) {
+        super(stategy);
+    }
+
+    @Override
+    protected String getRandomValue() {
+        StringBuffer sb = new StringBuffer(17);
+        sb.append(RandomUtil.getRandomInt(100000,999999));
+        sb.append(RandomUtil.getRandomInt(0,100));
+        sb.append(RandomUtil.getRandomInt(100000,999999));
+        sb.append(RandomUtil.getRandomInt(0,10));
+        return sb.toString();
+    }
+
+}
