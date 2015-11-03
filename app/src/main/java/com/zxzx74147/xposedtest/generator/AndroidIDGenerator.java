@@ -1,14 +1,15 @@
-package com.zxzx74147.xposedtest.faker;
+package com.zxzx74147.xposedtest.generator;
 
-import com.zxzx74147.xposedtest.stategy.BaseStategy;
+import com.zxzx74147.xposedtest.faker.BaseGenerator;
+import com.zxzx74147.xposedtest.stategy.CommonStategy;
 import com.zxzx74147.xposedtest.util.RandomUtil;
 
 /**
  * Created by zhengxin on 15/10/23.
  */
-public class ImeiGenerator extends BaseGenerator {
+public class AndroidIDGenerator extends BaseGenerator {
 
-    public ImeiGenerator(BaseStategy stategy) {
+    public AndroidIDGenerator(CommonStategy stategy) {
         super(stategy);
     }
 

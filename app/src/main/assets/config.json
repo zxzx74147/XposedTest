@@ -1,7 +1,7 @@
 {
   "fake_data": [
     {
-      "package_name": "com.zxzx74147.xposed",
+      "package_name": "com.zxzx74147.xposedtest",
       "stategys": [
         {
           "tag": "imei",
@@ -19,12 +19,13 @@
             "865528025275417"
           ]
         }
-      ],
+      ]
+    },{
       "package_name": "cn.myhug.baobao",
       "stategys": [
         {
           "tag": "imei",
-          "stategy": 1,
+          "stategy": 2,
           "list": [
             "357747054435362",
             "865528025275417"
